@@ -15,8 +15,8 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px solid #cccccc;
   padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .site-header {
@@ -25,6 +25,9 @@ h2 {
 
 .skills-item {
   margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+  color: #999999;
 }
 
 .container {
@@ -46,9 +49,9 @@ h2 {
   vertical-align: top;
   width: 30%;
   margin: 0 5px;
+  text-align: center;
   background-repeat: no-repeat;
   background-position: center top;
-  text-align: center;
 }
 
 .feature-kitten {
