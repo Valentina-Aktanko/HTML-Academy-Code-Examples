@@ -9,17 +9,17 @@ body {
 
 h1 {
   width: 260px;
-  font-family: "Arial", sans-serif;
+  font-family: "Georgia", serif;
   font-size: 36px;
   line-height: 36px;
 }
 
 .site-header {
-  margin-bottom: 190px;
+  margin-bottom: 30px;
 }
 
 .skills-item {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .container {
