@@ -30,6 +30,16 @@ h2 {
   color: #999999;
 }
 
+.standard {
+  border-color: #ffc5b3;
+  color: #666666;
+}
+
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
+}
+
 .container {
   width: 480px;
   margin: 0 auto;
