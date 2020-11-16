@@ -30,3 +30,15 @@ let cookiesButton = document.querySelector('.button');
 cookiesButton.onclick = function () {
   cookies.classList.add('cookies-agreement-closed');
 };
+
+// Переключение темы оформления
+function handleClick() {
+  page.classList.toggle('light-theme');
+  page.classList.toggle('dark-theme');
+}
+
+let page = document.querySelector('.page');
+let themeButton = document.querySelector('.theme-button');
+
+themeButton.addEventListener('click', handleClick);
+
