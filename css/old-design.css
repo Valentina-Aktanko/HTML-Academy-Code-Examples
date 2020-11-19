@@ -59,6 +59,10 @@ h2 {
   background-position: center 50px
 }
 
+.site-header img {
+  display: none;
+}
+
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -81,6 +85,10 @@ h2 {
   background-image: url(img/bottle-no-round.svg)
 }
 
+.feature-cat {
+  display: none;
+}
+
 .features p:nth-of-type(2) {
   background-image: url(img/cat-no-round.svg)
 }
@@ -91,7 +99,7 @@ h2 {
 
 .skills-list {
   padding: 0;
-  list-style: none
+  list-style: none;
 }
 
 .skills-list li {
