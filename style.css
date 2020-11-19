@@ -67,7 +67,7 @@ a:focus {
   line-height: 48px;
 }
 
-.theme-button {
+.button {
   position: relative;
   margin-top: 20px;
   padding-top: 7px;
@@ -82,16 +82,16 @@ a:focus {
   border: 1px solid #6653d9;
 }
 
-.theme-button:active {
+.button:active {
   opacity: 0.8;
 }
 
-.theme-button:focus,
-.theme-button:hover {
+.button:focus,
+.button:hover {
   color: #ffffff;
   background-color: #6653d9;
 }
-.theme-button:focus {
+.button:focus {
   outline-color: #b6aaff;
 }
 
@@ -167,6 +167,28 @@ p.contacts-name {
   line-height: 24px;
 }
 
+.ym-agreement {
+  background-color: #fdeacd;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ym-agreement-closed {
+  display: none
+}
+
+.ym-agreement .container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px
+}
+
+.ym-agreement .button {
+  margin-top: 0;
+}
+
 .page-footer {
   margin-top: auto;
   color: #ffffff;
@@ -201,13 +223,13 @@ p.contacts-name {
   color: #9484f2;
 }
 
-.dark-theme .theme-button {
+.dark-theme .button {
   color: #9484f2;
   border: 1px solid #9484f2;
 }
 
-.dark-theme .theme-button:focus,
-.dark-theme .theme-button:hover {
+.dark-theme .button:focus,
+.dark-theme .button:hover {
   color: #17161a;
   background-color: #9484f2;
 }
@@ -215,6 +237,25 @@ p.contacts-name {
 .dark-theme .status p {
   background-color: #2a2930;
 }
+
+.dark-theme .ym-agreement {
+  background-color: #473c8d;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dark-theme .ym-agreement .button {
+  color: #f2f2f2;
+}
+
+/* .dark-theme .ym-agreement .button {
+  background-color: #9484f2;
+  color: #17161a;
+}
+
+.dark-theme .ym-agreement .button:focus,
+.dark-theme .ym-agreement .button:hover {
+  background-color: #b6aaff;
+} */
 
 .dark-theme .page-footer {
   background-color: #373540;
