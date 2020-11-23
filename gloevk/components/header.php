@@ -15,7 +15,7 @@
         <ul class="navigation-list">
           <li><a href="catalog.php">Каталог</a></li>
           <li><a href="delivery.php">Доставка</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="contacts.php">Контакты</a></li>
           <li><a href="blog.html">Блог</a></li> 
         </ul>
       </nav>
