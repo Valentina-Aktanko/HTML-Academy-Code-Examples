@@ -42,3 +42,19 @@ cite {
 time {
   color: #6a2cce;
 }
+
+.danger-text {
+  color: #ff4400;
+}
+
+.danger-block {
+  padding: 5px 10px;
+
+  background-color: #ffd0bf;
+}
+
+.no-danger-block {
+  padding: 5px 10px;
+
+  background-color: #c6f5f0;
+}
