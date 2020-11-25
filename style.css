@@ -1,6 +1,5 @@
 body {
   padding: 0 30px;
-
   font-size: 14px;
   line-height: 22px;
   font-family: "Georgia", serif;
@@ -8,6 +7,11 @@ body {
 }
 
 h1 {
+  font-size: 32px;
+  line-height: normal;
+}
+
+h2 {
   font-size: 20px;
   line-height: normal;
 }
@@ -18,7 +22,6 @@ nav {
 
 aside {
   margin: 20px 0;
-
   color: #c4c4c4;
 }
 
@@ -26,6 +29,10 @@ pre,
 code {
   font-family: "Courier New", "Courier", monospace;
   color: #6a2cce;
+}
+
+pre {
+  line-height: normal;
 }
 
 blockquote {
@@ -49,12 +56,14 @@ time {
 
 .danger-block {
   padding: 5px 10px;
-
   background-color: #ffd0bf;
 }
 
 .no-danger-block {
   padding: 5px 10px;
+  background-color: #40e0d0;
+}
 
-  background-color: #c6f5f0;
+footer {
+  margin-top: 30px;
 }
