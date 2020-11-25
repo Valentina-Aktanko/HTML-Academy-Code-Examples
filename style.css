@@ -21,3 +21,9 @@ aside {
 
   color: #c4c4c4;
 }
+
+pre {
+  line-height: normal;
+  font-family: "Courier New", "Courier", monospace;
+  color: #6a2cce;
+}
