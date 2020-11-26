@@ -20,6 +20,11 @@ nav {
   color: #888888;
 }
 
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
+
 aside {
   margin: 20px 0;
   color: #c4c4c4;
