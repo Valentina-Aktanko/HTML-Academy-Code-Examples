@@ -25,6 +25,10 @@ a[href] {
   text-decoration-line: underline;
 }
 
+article {
+  width: 400px;
+}
+
 aside {
   margin: 20px 0;
   color: #c4c4c4;
@@ -90,4 +94,12 @@ footer {
 
 .recipe-page .warning {
   color: red;
+}
+
+.day-13 h1 {
+  font-size: 20px;
+}
+
+.day-13 h2 {
+  font-size: 18px;
 }
