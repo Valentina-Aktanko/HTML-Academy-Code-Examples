@@ -20,6 +20,15 @@ nav {
   color: #888888;
 }
 
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
+
+article {
+  width: 400px;
+}
+
 aside {
   margin: 20px 0;
   color: #c4c4c4;
@@ -66,4 +75,30 @@ time {
 
 footer {
   margin-top: 30px;
+}
+
+.recipe-page body {
+  width: 400px;
+  margin: 0;
+  padding: 0 10px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.recipe-page h1 {
+  font-size: 18px;
+}
+
+.recipe-page .warning {
+  color: red;
+}
+
+.day-13 h1 {
+  font-size: 20px;
+}
+
+.day-13 h2 {
+  font-size: 18px;
 }
