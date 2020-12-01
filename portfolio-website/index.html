@@ -7,12 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио фронтенд-разработчика</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(69890647, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/69890647" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
 
   <body>
     <header class="page-header">
       <div class="container">
-        <p><i>По всем вопросам пишите:</i><br><a href="mailto:valentina.aktanko.khv@gmail.com">valentina.aktanko.khv@gmail.com</a></p>
+        <p><i>По всем вопросам пишите:</i><br><a class="header-email" href="mailto:valentina.aktanko.khv@gmail.com">valentina.aktanko.khv@gmail.com</a></p>
       </div>
     </header>
 
@@ -26,14 +41,17 @@
     <section class="intro">
       <div class="container">
         <h2 class="subheading">Давайте познакомимся</h2>
+        <figure>
+          <img src="files/user.jpg" width="640" height="640" alt="Фотография Валентины Актанко">
+        </figure>
         <h3>Пара слов о себе</h3>
         <p>Всем привет!</p>
         <p>Эта страничка создана во время прохождения курсов на крутом ресурсе <a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>.</p>
-        <p>Тут я буду хранить выполненные в процессе обучения проекты, фрагменты кодовой базы и многое другое.</p>
+        <p>Здесь я собираюсь хранить выполненные в процессе обучения проекты, фрагменты кода и многое другое.</p>
         <p>Я просто обожаю web и очень рада, что когда-то открыла для себя этот полезный ресурс!</p>
         <h3>Чем могу быть полезна</h3>
         <p>На данном этапе могу легко сверстать страницы по макетам Photoshop или Figma, при этом не забыв про семантику и доступность.</p>
-        <p>Верстаю для современных браузеров на флексах и гридах, но в случае необходимости могу разобраться и во флоатах, если требуется поддержка IE.</p>
+        <p>Верстаю для современных браузеров на флексах и гридах, но в случае необходимости могу поддержать IE.</p>
       </div>
     </section>
 
@@ -41,25 +59,48 @@
       <div class="container">
         <h2 class="subheading">Мои работы</h2>
   
-        <h3>Сайт опознанного енота</h3>
-        <p>Маленький лендинг опознанного енота, то есть меня.</p>
-        
-        <h3>Блог начинающего верстальщика</h3>
-        <p>Статический блог про обучение HTML и CSS.</p>
-  
-        <h3>Сайт инструктора Кекса</h3>
-        <p>Небольшой лендинг о школе для начинающих.</p>
-  
+        <figure class="project-image">
+          <img src="files/gloevk-website.jpg" width="928" alt="Интернет-магазин товаров для дома">
+        </figure>
         <h3>Сайт интернет-магазина товаров для дома</h3>
         <p>Сайт со статическими и димамическими страницами на php с имитацией БД.</p>
+        <a class="button" href="source/gloevk/index.php" targer="_blank">Открыть страницу</a>
+
+        <figure class="project-image">
+          <img src="files/news-website.jpg" width="928" alt="Сайт новостей">
+        </figure>
+        <h3>Новостной сайт Flash News</h3>
+        <p>Статические страницы и немного JavaScript'а</p>
+        <a class="button" href="source/news-website/index.html" targer="_blank">Открыть страницу</a>
+
+        <figure class="project-image">
+          <img src="files/keks-website.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+        </figure>
+        <h3>Сайт инструктора Кекса</h3>
+        <p>Небольшой лендинг о школе для начинающих.</p>
+        <a class="button" href="source/keks-website/index.html" targer="_blank">Открыть страницу</a>
+        
+        <figure class="project-image">
+          <img src="files/known-racoon-website.jpg" width="928" alt="Cайт опознанного енота">
+        </figure>
+        <h3>Сайт опознанного енота</h3>
+        <p>Маленький лендинг опознанного енота.</p>
+        <a class="button" href="source/known-racoon-website/index.php" targer="_blank">Открыть страницу</a>
+        
+        <figure class="project-image">
+          <img src="files/blog-website.jpg" width="928" alt="Блог про обучение веб-разработке">
+        </figure>
+        <h3>Блог начинающего верстальщика</h3>
+        <p>Статический блог про обучение HTML и CSS.</p>
+        <a class="button" href="source/blog-website/index.html" targer="_blank">Открыть страницу</a>
       </div>
 
     </section>
 
     <footer class="page-footer">
       <div class="container">
-        <p>Email:<a href="mailto:valentina.aktanko.khv@gmail.com">valentina.aktanko.khv@gmail.com</a></p>
-        <p><i>telegram:</i> <a href="https://t.me/Freya86" target="_blank">@Freya86</a></p>
+        <p>Email:<a class="footer-email" href="mailto:valentina.aktanko.khv@gmail.com">valentina.aktanko.khv@gmail.com</a></p>
+        <p><i>telegram:</i> <a class="footer-telegram" href="https://t.me/Freya86" target="_blank">@Freya86</a></p>
       </div>
     </footer>
   </body>
