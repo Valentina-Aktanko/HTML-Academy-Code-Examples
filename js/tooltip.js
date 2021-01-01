@@ -3,16 +3,13 @@ let closeButton = document.querySelector('.close-button');
 let tooltipButtons = document.querySelectorAll('.tooltip-button');
 let tooltipText = document.querySelector('.tooltip-text');
 
-tooltipButtons[0].onclick = function () {
-  tooltipText.textContent = tooltipButtons[0].dataset.tooltipText;
-  tooltip.classList.add('opened');
-};
-
-tooltipButtons[1].onclick = function () {
-  tooltipText.textContent = tooltipButtons[1].dataset.tooltipText;
-  tooltip.classList.add('opened');
-};
-
 closeButton.onclick = function () {
   tooltip.classList.remove('opened');
+};
+
+for (let tooltipButton of tooltipButtons) {
+  tooltipButton.onclick = function () {
+    tooltipText.textContent = tooltipButton.dataset.tooltipText;
+    tooltip.classList.add('opened');
+  }
 };
