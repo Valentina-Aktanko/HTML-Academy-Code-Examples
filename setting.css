@@ -68,13 +68,19 @@ a {
   vertical-align: text-bottom
 }
 
+.menu,
 .theme-button {
   position: relative;
+  cursor: pointer
+}
+
+.theme-button {
+  flex-shrink: 0;
   margin: auto 0;
   padding: 7px 16px 7px 36px;
-  font-size: 12px;
   border-radius: 2px;
-  background-color: transparent
+  background-color: transparent;
+  font-size: 12px
 }
 
 .theme-button::before {
@@ -94,14 +100,12 @@ a {
 }
 
 .menu {
-  position: relative;
   margin-right: -10px;
   margin-left: 24px;
   width: 42px;
   height: 42px;
   font-size: 0;
   border: 0;
-  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center
 }
@@ -134,13 +138,15 @@ a {
 }
 
 .index-main,
-.inner-main {
+.inner-main,
+.inner-news {
   padding: 0;
   min-height: calc(100vh - 84px)
 }
 
 .index-main .container,
-.inner-main .container {
+.inner-main .container,
+.inner-news .container {
   flex-direction: column
 }
 
@@ -262,7 +268,8 @@ body {
   font-size: 12px;
   border: 0;
   padding: 7px 16px;
-  border-radius: 2px
+  border-radius: 2px;
+  cursor: pointer
 }
 
 .button:active {
@@ -328,7 +335,8 @@ body {
   background-color: transparent;
   font: inherit;
   font-size: 14px;
-  line-height: 30px
+  line-height: 30px;
+  outline: 0
 }
 
 .subscription-email::placeholder {
@@ -338,10 +346,11 @@ body {
   font-style: italic
 }
 
-.subscription-button {
-  flex-shrink: 0
+.subscription-email:focus::placeholder {
+  font-size: 0
 }
 
-.dark-theme .header-logo {
-  filter: invert(1) hue-rotate(180deg) brightness(2)
+.subscription-email:active::placeholder,
+.subscription-email:hover::placeholder {
+  opacity: .5
 }
