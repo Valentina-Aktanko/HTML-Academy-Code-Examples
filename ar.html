@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="setting.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FlashNews!</title>
+  </head>
+
+  <body class="page light-theme">
+    <header class="page-header">
+      <div class="container">
+        <a class="header-logo" href="index.html">
+          <img src="img/main-logo.svg" width="67" height="29" alt="Логотип портала FlashNews!">
+        </a>
+        <a class="header-link" href="index.html">На главную</a>
+        <button class="theme-button" type="button">Изменить тему</button>
+      </div>
+    </header>
+
+    <main class="inner-news">
+      <div class="tooltip">
+        <span class="tooltip-text"></span>
+        <button class="button close-button" type="button"><span>Закрыть</span></button>
+      </div>
+
+      <article class="container">
+        <h1 class="inner-heading">Дополни свою реальность</h1>
+        <div class="news-full">
+          <img src="img/ar.jpg" alt="Человек в очках виртуальной реальности">
+          <div class="news-stats">
+            <button class="heart" type="button"><span class="likes-number">297</span></button>
+            <time datetime="2020-02-18">18 февраля 2020</time>
+          </div>
+          <p>Редакция Flashnews! подготовила подарок для своих подписчиков - приложение <button class="tooltip-button" type="button" data-tooltip-text="это когда у тебя в гостиной покемоны">дополненной реальности</button>, в котором вы сможете погладить <button class="tooltip-button" type="button" data-tooltip-text="что-то среднее между свиньей и тушканчиком">трубкозуба</button>, вырастить <button class="tooltip-button" type="button" data-tooltip-text="сам не знаю, погугли">питахайю</button> или поговорить с <button class="tooltip-button" type="button" data-tooltip-text="доступно только для владельцев годовой подписки">Кексом</button>.</p>
+        </div>
+        </article>
+
+        <section class="comment-feed container">
+          <h2>Комментарии</h2>
+          <ol class="comment-list">
+            <li class="user-comment">Хочу!!!</li>
+            <li class="user-comment">Я попробовал - это офигенно!</li>
+            <li class="user-comment">Если надеть шапочку из фольги, приложение перестаёт работать. Отписка</li>
+          </ol>
+          <form action="https://echo.htmlacademy.ru/courses" method="post" class="comment-form">
+            <div class="comment-inner">
+              <label class="comment-label" for="comment-textarea">ваш комментарий</label>
+              <textarea class="comment-field comment-area" rows="3" placeholder="Комментарий" required id="comment-textarea"></textarea>
+            </div>
+            <button class="button submit-button" type="submit">Отправить</button>
+          </form>
+        </section>
+    </main>
+
+      <footer class="page-footer">
+        <div class="container">
+          <p>© FlashNews!</p>
+          <span class="footer-logo">
+            <img src="img/white-logo.svg" alt="Логотип портала FlashNews!">
+          </span>
+        </div>
+      </footer>
+
+    <script src="js/themes.js"></script>
+    <script src="js/likes.js"></script>
+    <script src="js/comments.js"></script>
+    <script src="js/tooltip.js"></script>
+    <!-- Подключите скрипт здесь -->
+  </body>
+</html>
